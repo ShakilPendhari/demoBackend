@@ -1,0 +1,6 @@
+Challenges
+
+1. Don't use complicated username or password while creating the cluster
+==> No numbers, No special Char, No uppercase Char
+
+2. Don't use complicated names for database abd collection as well
