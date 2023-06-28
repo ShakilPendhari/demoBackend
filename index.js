@@ -24,6 +24,6 @@ app.listen(4500, async ()=>{
     }
     catch(err){
         console.log("Cannot connect to DB");
-    }
+    }    
     console.log(`Running the server at port ${ 4500 }`)
 })
