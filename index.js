@@ -17,7 +17,7 @@ app.use("/users",userRouter);
 app.use("/students",studentRouter);
 
 
-app.listen(4500, async ()=>{
+app.listen(process.env.port, async ()=>{
     try{
         await connection
         console.log("Connect to the DB");
@@ -25,5 +25,5 @@ app.listen(4500, async ()=>{
     catch(err){
         console.log("Cannot connect to DB");
     }    
-    console.log(`Running the server at port ${ 4500 }`)
+    console.log(`Running the server at port ${ process.env.port }`)
 })
